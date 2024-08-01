@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-container {
+  width: 40%;
+  padding: 20px;
+  color: rgb(56, 54, 54);
+  box-shadow: 0 0 15px -2px rgb(18, 16, 16);
+  text-align: center;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+}
+
+#keyboard-key-container {
+  display: none;
+  min-width: 120px;
+  width: fit-content;
+  height: 130px;
+  box-shadow: 0 0 5px -2px rgb(141, 139, 139);
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(62, 212, 62);
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+#key {
+  color: rgb(62, 212, 62);
+}
